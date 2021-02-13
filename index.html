@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/helecho.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Bienvenido a mis retos</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            
+            <a href="#textosHeader">Inicio</a>
+            <a href="#form">Retos</a>
+            <a href="#containerFooter">Contáctame</a>
+        </nav>
+        <section id="textosHeader" class="textosHeader">
+            <h1 id="title" class="title">Bienvenido a mi página de Retos</h1>
+            <h2>Html, CSS y Javascript...</h2>
+            <h1 class="title">25 Retos en 25 días</h1>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M-33.57,1.48 C241.82,159.38 253.10,-52.78 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: rgb(253, 253, 253);"></path>
+            </svg>
+        </div>
+    </header>
+
+    
+
+    <section id="containerRetos" class="containerRetos">
+        <label>Busca aquí el reto que quieras observar...</label><br><br>
+        <form id="form" class="form-inline">
+            <input type="text" id="filter" placeholder="Search">
+        </form><br><br>
+        <div class="boxRetos" id="boxRetos">
+            <!-- aqui se insertan las cards -->
+
+        </div>
+    </section>
+
+    <!-- //-------------------------FOOTERRRRRRRRRRRRRRRRR---------------------------- -->
+
+    <footer>
+        <div id="containerFooter" class="containerFooter">
+            <div class="column1">
+                <h1 id="contacto">Más información de nosotros...</h1>
+                <div class="column1Div">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic corrupti, harum aliquid doloribus
+                        dicta vel, animi vitae delectus iusto aspernatur consequuntur, officia obcaecati dolor nesciunt
+                        maiores sed ratione aliquam veritatis?
+                    </p>
+                </div>
+            </div>
+
+            <div class="column2">
+                <h1>Redes Sociales</h1>
+                <div class="row">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" /></a>
+                    <label>Sigueme en Facebook</label>
+                </div>
+                <div class="row">
+                    <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" /></a>
+                    <label>Sigueme en Instagram</label>
+                </div>
+                <div class="row">
+                    <a href="https://www.twitter.com/" target="_blank"><img  src="img/twitter.png" /></a>
+                    <label>Sigueme en Twitter</label>
+                </div>
+                <div class="row">
+                    <a href="https://www.youtube.com/" target="_blank"><img  src="img/youtube.png" /></a>
+                    <label>Sigueme en Youtube</label>
+                </div>
+            </div>
+            <div class="column3">
+                <h1>Contácme</h1>
+                <div class="row2">
+                    <img src="img/casa.png" />
+                    <label>Bogotá, Colombia</label>
+                </div>
+                <div class="row2">
+                    <img src="img/tel.png" />
+                    <label>318-679-2462</label>
+                </div>
+                <div class="row2">
+                    <img src="img/correo.png" />
+                    <label>lplugof@gmail.com</label>
+                </div>
+            </div>
+        </div>
+        <div><h3>© 2021 Lorena Lugo</h3></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
